@@ -62,4 +62,6 @@
 //create a function called 'nFactorial(num)'
 //'nFactorial' should return the factorial of the 'num' argument
 //note: the factorial of 5 is (5 * 4 * 3 * 2 * 1) ->  120
-//try to use recursion
+//try to solve this recursively
+
+/*code here*/
