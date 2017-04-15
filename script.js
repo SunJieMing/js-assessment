@@ -1,5 +1,5 @@
 //#1
-//Declare a variale called 'name' that has the value of your name.
+//Declare a variable called 'name' that has the value of your name.
 
 /*code here*/
 
