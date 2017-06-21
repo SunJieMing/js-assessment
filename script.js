@@ -1,7 +1,8 @@
 //#1
 //Declare a variable called 'name' that has the value of your name.
 
-/var name = 'Nana Owusu Nyamekye'/
+
+var name = 'Nana Owusu Nyamekye';
 
 //#2
 //create an if statement that checks to see if your name is equal to 'Ben'
@@ -9,25 +10,26 @@
 //otherwise log 'no'
 //note: use console.log to log the string
 
-/if (name == 'Nana Owusu Nyamekye') {
+
+  if (name == 'Nana Owusu Nyamekye') {
   console.log('yes');
 }
  else {
-   console.log('no')
- }/
+   console.log('no');
+ };
 
 //#3
 //create an array called 'favoriteFoods'.
 //fill it up with the names of several of your favorite foods
 
-/var favoriteFoods = new Array('rice', 'fufu', 'noodles', 'banku');/
+var favoriteFoods = new Array('rice', 'fufu', 'noodles', 'banku');
 
 //#4
 //use a for loop to log each food in the 'favoriteFoods' array
 
-/for (var i = 0;i < favoriteFoods.length; i++) {
+for (var i = 0;i < favoriteFoods.length; i++) {
   console.log(favoriteFoods[i]);
-}/
+};
 
 //#5
 //create an object called 'favoriteMovie'.
@@ -35,20 +37,20 @@
 //give 'favoriteMovie' a property called 'title' and set it equal to the title
 //give 'favoriteMovie' a property called 'director' and set it equal to the director's name
 
-/var favoriteMovie = {
+var favoriteMovie = {
   runtime: 90;
   title: 'Transformers';
-  director: 'Micheal Bay'
-};/
+  director: 'Micheal Bay';
+};
 
 //#6
 //create a function called 'sayHi'.
 //'sayHi' should accept one argument called 'name'
 //when 'sayHi' is invoked it should log the string 'Hello <name>!' where <name> is equal to the 'name' argument
 
-/function sayHi(name) {
+function sayHi(name) {
   console.log('Hello' + name);
-}
+};
 
 //#7
 //create an array called 'friends'
@@ -56,12 +58,12 @@
 //each object should have a 'name', 'age', and 'vocation' property with appropriate data
 //put the three objects inside of the 'friends' array
 
-/var friends = new Array()
+var friends = new Array();
 
 var Kofi = {
   name: 'John Kofi Doe';
   age: 32;
-  vocation: 'Artist'
+  vocation: 'Artist';
 };
 
 var Susan = {
@@ -71,10 +73,10 @@ var Susan = {
 };
 
 var Cassie = {
-  name: 'Cassie Sarfo'
+  name: 'Cassie Sarfo';
   age: 22;
   vocation: 'Software Developer';
-};/
+};
 
 friends.push(Kofi);
 friends.push(Susan);
@@ -84,9 +86,9 @@ friends.push(Cassie);
 //use a for loop to iterate over the 'friends' array from problem #7
 //inside the for loop print the string 'My friend <name> is <age> years old and does <vocation> for work.'
 
-/for (i = 0; i < friends.length; i++) {
+for (i = 0; i < friends.length; i++) {
 console.log('My friend' + name + "" + 'is' + age + "" + 'years old and does' + vocation + "" + 'for work.');
-};/
+};
 
 //#9
 //create a constructor called 'User' that can function as a class for creating new user objects
@@ -101,12 +103,12 @@ console.log('My friend' + name + "" + 'is' + age + "" + 'years old and does' + v
 //note: the factorial of 5 is (5 * 4 * 3 * 2 * 1) ->  120
 //try to solve this recursively
 
-/function nFactorial(num) {
+function nFactorial(num) {
   if (num === 0) {
-    return 1
+    return 1;
   }
   elsif {  
   return num * factorial(num-1);
   };
   
-};/
+};
