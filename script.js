@@ -85,10 +85,13 @@ function User(email, password){
 //try to solve this recursively
 
 function nFactorial(num){
+  if(num == 1 || num == 0){return 1}
+  else{
     var i = num-1;
     var s = num;
     for(i; i>0; i--){s *= i}
     return s;
+  }
 }
 var output = nFactorial(5);
 //==120
